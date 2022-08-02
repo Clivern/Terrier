@@ -52,10 +52,10 @@ docs:
 	$(mix) docs
 
 
-## publish: Publish rune
+## publish: Publish terrier
 .PHONY: publish
 publish:
-	@echo ">> ============= Publish rune ============= <<"
+	@echo ">> ============= Publish terrier ============= <<"
 	$(mix) hex.publish
 
 
