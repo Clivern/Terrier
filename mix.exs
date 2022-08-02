@@ -1,7 +1,7 @@
 defmodule Terrier.MixProject do
   use Mix.Project
 
-  @version "0.1.1"
+  @version "0.1.2"
   @url_docs "http://hexdocs.pm/terrier"
   @url_github "https://github.com/clivern/terrier"
 
