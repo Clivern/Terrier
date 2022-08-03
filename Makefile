@@ -45,13 +45,6 @@ build:
 	$(mix) compile --warnings-as-errors
 
 
-## analyze: Analyze code
-.PHONY: analyze
-analyze:
-	@echo ">> ============= Build code ============= <<"
-	$(mix) dialyzer
-
-
 ## docs: Build docs
 .PHONY: docs
 docs:
